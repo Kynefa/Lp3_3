@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css?v=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="menu">
+                <li><a href="#">Форми навчання</a></li>
+                <li><a href="#">Заходи</a></li>
+                <li><a href="#">Про академію</a></li>
+                <li><a href="#">Контакти</a></li>
+                <li class="dropdown long-menu-item">
+                    <a href="#" id="city-button">Київ</a>
+                    <div class="dropdown-content">
+                        <a href="#" onclick="selectCity('Київ')">Київ</a>
+                        <a href="#" onclick="selectCity('Одеса')">Одеса</a>
+                        <a href="#" onclick="selectCity('Львів')">Львів</a>
+                        <a href="#" onclick="selectCity('Харків')">Харків</a>
+                        <a href="#" onclick="selectCity('Дніпро')">Дніпро</a>
+                        <a href="#" onclick="selectCity('Запоріжжя')">Запоріжжя</a>
+                        <a href="#" onclick="selectCity('Вінниця')">Вінниця</a>
+                        <a href="#" onclick="selectCity('Полтава')">Полтава</a>
+                        <a href="#" onclick="selectCity('Чернігів')">Чернігів</a>
+                        <a href="#" onclick="selectCity('Херсон')">Херсон</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div id="content">
+        <div class="title-container">
+            <h1 class="background-text">Для кого </h1>
+            <h1 id="uptext">Для кого розроблена програма</h1>
+        </div>
+        <div class="up-blocks">
+            <div class="block">
+                <b>
+                    <p style="text-align: center;">Школярі та випускники (15-18 років)</p>
+                </b>
+                <p>отримають першу професію, не відкладаючи на потім свою мрію стати програмістом</p>
+                <div class="image-container">
+                    <img src="img/Screenshot_1.png" alt="Фото" class="main-image">
+                    <div class="image-shadow"></div>
+                </div>
+            </div>
+            <div class="block">
+                <b>
+                    <div class="image-container">
+                        <img src="img/Screenshot_2.png" alt="Фото" class="main-image">
+                        <div class="image-shadow"></div>
+                    </div>
+                    <p style="text-align: center;">Студенти ВНЗ (18-23 роки) </p>
+                </b>
+                <p> освоять другу спеціальність паралельно з університетьською освітою.</p>
+            </div>
+            <div class="block">
+                <b>
+                    <p style="text-align: center;">Представники інших професій (23-55 років)</p>
+                </b>
+                <p>яких не влаштовує поточна кар'єрна і фінансова перспектива, зможуть перевчитися на розробника ПЗ і
+                    отримати затребувану професію.</p>
+                <div class="image-container">
+                    <img src="img/Screenshot_3.png" alt="Фото" class="main-image">
+                    <div class="image-shadow"></div>
+                </div>
+            </div>
+            <div class="block">
+                <b>
+                    <div class="image-container">
+                        <img src="img/Screenshot_4.png" alt="Фото" class="main-image">
+                        <div class="image-shadow"></div>
+                    </div>
+                    <p style="text-align: center;">Всі бажаючі підвищити ІТ-кваліфікацію</p>
+                </b>
+                <p>систематизують свої знання</p> і отримають робочі навички, затребувані сучасному ІТ.
+            </div>
+        </div>
+        <div class="midl-container">
+            <h1 class="background-midltext">проходить навчання </h1>
+            <h1 id="midltext">Як проходить навчання</h1>
+        </div>
+        <div class="img-box">
+            <div class="image-container">
+                <img src="img/Screenshot_5.png" alt="Фото" class="main-image">
+                <div class="image-shadow"></div>
+            </div>
+            <div class="image-container">
+                <img src="img/Screenshot_6.png" alt="Фото" class="main-image">
+                <div class="image-shadow"></div>
+            </div>
+            <div class="image-container">
+                <img src="img/Screenshot_7.png" alt="Фото" class="main-image">
+                <div class="image-shadow"></div>
+            </div>
+        </div>
+    </div>
+    <div class="down-block">
+        <div>
+            <h1 style="text-align: center;">Партнери академії</h1>
+        </div>
+        <div class="down-fototext">
+            <div class="image-last">
+                <div class="image-last-back">
+                    <img src="img/Screenshot_8.png" alt="Фото" />
+                </div>
+            </div>
+            <div class="text-container">
+                <h4>Luxoft</h4>
+                <p><span class="blue-text">Luxoft</span> - глобальна технологічна компанія, одна із лідерів на ринку
+                    послуг цифрової трансформації та створення програмних продуктів. Luxoft пропонує індивідуальні
+                    ІТ-рішення, які заохочують до змін у бізнесах клієнтів в усьому світі. Luxoft об’єднує понад 1300
+                    спеціалістів із 22 країн світу із штаб-квартирою у м. Цуг, Швейцарія. Україна є однією з
+                    найпопулярніших локацій в географії Luxoft. Близько 3500 фахівців усіх ключових напрямків
+                    зосереджені в офісах Києва, Одеси і Дніпра.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
